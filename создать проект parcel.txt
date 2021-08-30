@@ -1,0 +1,29 @@
+1.создать файл .gitignore
+  добавить node_modules/
+
+2.создать файл .prettierrc.json
+
+2.5 создать файл .browserslistrc если используешь PARCEL async/await
+    c настройками:
+last 3 and_chr versions
+last 3 chrome versions
+last 3 opera versions
+last 3 ios_saf versions
+last 3 safari versions
+
+3. npm init -y
+
+4. Установка Parcel
+   npm install parcel-bundler --save-dev
+
+5. Добавить два скрипта
+"dev": "parcel <your entry file>",
+    "build": "parcel build <your entry file>"
+
+6. Создай два файла  index.html и index.js.
+
+7. В файл index.html подключи скрипт
+  <script src="./index.js"></script>
+
+8. В скрипте парсела указываем точку входа. В данном примере
+ это путь к index.html
